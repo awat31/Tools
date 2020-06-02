@@ -8,13 +8,11 @@ import time as t
 def start():
     start = t.time()
     started = t.ctime(start)
-    print(f'Start Time: {started}')
     return start
 
 def end():
     end = t.time()
     ended = t.ctime(end)
-    print(f'\nEnd Time: {ended}\n')
     return end
 
 def runtime(start, end):
